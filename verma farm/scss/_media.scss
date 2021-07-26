@@ -1,0 +1,210 @@
+@media only screen and (max-width: 600px) {
+    section{
+        height: auto !important;
+        width: auto !important;
+    }
+    header{
+        background-size: cover !important;
+        background-position: center !important;
+        height: 90vh;
+        width: auto !important;
+
+        .showcase{
+            display: none !important;
+        }
+        .content-data{
+            padding-top: 300px;
+            
+            .col-lg-6{
+                padding:0 !important;
+                text-align: center;
+
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .sec1{
+        padding: 100px 0;
+
+        .d-lg-flex{
+            padding: 0 !important;
+
+            .col-lg-4{
+
+                h3{
+                    margin: -90px 35px !important;
+                }
+                .img1, .img2, .img3{
+                    margin-bottom: 100px !important;
+                }
+            }
+        }
+        p{
+            width: 90% !important;
+        }
+    }
+    .sec2{
+        padding: 100px 0;
+
+        .head-title{
+
+            p{
+                width: 90% !important;
+            }
+        }
+        .col-lg-6{
+            height: 500px;
+        }
+    }
+    .sec3{
+        background-image: none !important;
+
+        .col-lg-6{
+            padding: 0 30px !important;
+            text-align: center;
+
+            h2{
+                font-size: 25px !important;
+            }
+            h4{
+                font-size: 15px;
+            }
+        }
+        .d-sm-flex{
+            display: flex;
+            
+            .col-lg-4{
+                img{
+                   padding-left: 10px;
+                }
+            }
+            .col-lg-8{
+                text-align: left !important;
+                padding-left: 15px !important;
+            }
+            h5{
+                font-size: 15px !important;
+            }
+            p{
+                font-size: 12px !important;
+            }
+        }
+       
+    }
+    .sec4{
+
+        .inside-sec4{
+
+            .col-lg-7{
+                padding: 0 !important;
+            }
+            img{
+                width: 100vw !important;
+                height: auto !important;
+            }
+            .col-lg-5{
+                padding:50px 20px !important;
+                text-align: center !important;
+
+                h2{
+                    font-size: 20px !important;
+                }
+                h4{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .sec5{
+
+        .col-lg-6:nth-child(1){
+            text-align: center !important;
+        }
+        .col-lg-6:nth-child(2){
+            padding: 20px !important;
+        }
+    }
+    .sec6{
+
+
+        .col-lg-3{
+            padding: 0 !important;
+        }
+        .col-lg-6{
+            margin-top:0 !important;
+            display: none;
+        }
+        .col-sm-6{
+            height: 80vh;
+            background-image: url(../images/potted-plant.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 0 !important;
+            z-index: 9 !important;
+        }
+    }
+    .sec7{
+        padding:100px 0 !important;
+
+        h2{
+            font-size: 25px !important;
+        }
+        .box.container{
+            padding: 50px 10px !important;
+        }
+    }
+    .sec8{
+        height: 100px !important;
+
+        .d-lg-flex{
+            display: flex;
+            justify-content: space-around;
+
+            img{
+                width: 50px !important;
+            }
+            h2{
+                font-size: 20px !important;
+            }
+            .text-sm-left{
+                padding: 0 100px 0 0;
+            }
+        }
+        .col-lg-4:nth-child(1){
+            button{
+                display: none !important;
+            }
+        }
+    }
+
+    //media svg
+    .custom-shape-divider-bottom-1627047734 svg, .custom-shape-divider-bottom-1627048703 svg, .custom-shape-divider-top-1627050112 svg, .custom-shape-divider-bottom-1627088740 svg, .custom-shape-divider-bottom-1627089054 svg, .custom-shape-divider-top-1627089274 svg, .custom-shape-divider-bottom-1627092409 svg{
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .showcase{
+        display: none !important;
+    }
+    .sec7{
+
+        .box{
+            padding-top: 100px;
+        }
+        .d-md-flex{
+        justify-content: center;
+        }
+    }
+    .sec8{
+        .inside-sec8{
+            height: inherit;
+        }
+    }
+}
